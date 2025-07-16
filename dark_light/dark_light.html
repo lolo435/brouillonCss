@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dark_light/dark_light.css">
+</head>
+<body>
+    <body>
+
+    <div class="container">
+        <div class="=header">
+          <h1>Sytème de thèmes</h1>
+          <p>Démonstration d'un gestionnairede thèmes en Javascript></p> 
+         </div>
+   
+    <div class="controls">
+            <button class="btn" onclick="gestionnaireThemes.changerTheme('clair')">
+                ☀️ Thème Clair
+            </button>
+            <button class="btn" onclick="gestionnaireThemes.changerTheme('sombre')">
+                🌙 Thème Sombre
+            </button>
+            <button class="btn" onclick="gestionnaireThemes.changerTheme('colore')">
+                🌈 Thème Coloré
+            </button>
+        </div>
+ 
+        <div class="carte">
+            <h3>Comment ça marche ?</h3>
+            <p>Ce système utilise des variables CSS et les classes pour changer dynamiquement l'apparence</p>
+        </div>
+ 
+        <div class="carte">
+            <h3>Thème actuel</h3>
+            <p id="theme-actuel">Thème claire</p>
+        </div>
+ 
+        <div class="carte">
+            <h3>Statistiques</h3>
+            <p>Nombre de changements : <span id="compteur">0</span></p>
+        </div>
+
+
+    </div>
+    <script src="/dark_light/dark_light.js"></script>
+ </body>
+</html>
