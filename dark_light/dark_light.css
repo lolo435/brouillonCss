@@ -84,6 +84,14 @@ body {
     --couleur-texte: #2c3e50;
     --couleur-carte: #ffe6e6;
 }
+
+.theme-gradient {
+    --couleur-principale: #020024;
+     --couleur-fond: #090979; 
+    --couleur-texte: #2c3e50;
+    --couleur-carte: #b10bb4;
+   
+}
  
 /* 📱 Responsive */
  
